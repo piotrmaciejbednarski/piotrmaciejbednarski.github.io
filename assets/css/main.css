@@ -226,9 +226,3 @@ div.footnotes hr {
   height: 400px;
   object-fit: cover;
 }
-
-/* Container styles */
-.container hr {
-  color: #999;
-  width: 50%;
-}
