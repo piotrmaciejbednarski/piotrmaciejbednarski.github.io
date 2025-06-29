@@ -9,13 +9,13 @@
         </span>
         <br />
         <a href="https://developer.apple.com/macos/">
-          <img style="padding-top: 5px;" src="/assets/img/macos.gif" />
+          <img alt="macOS" style="padding-top: 5px;" src="/assets/img/macos.gif" />
         </a>
         <a href="https://github.com/torvalds/linux">
-          <img style="padding-top: 5px;" src="/assets/img/linuxnow.jpg" />
+          <img alt="Linux" style="padding-top: 5px;" src="/assets/img/linuxnow.jpg" />
         </a>
         <a href="https://www.ruby-lang.org/">
-          <img style="padding-top: 5px;" src="/assets/img/PoweredByRuby.png" />
+          <img alt="Ruby" style="padding-top: 5px;" src="/assets/img/PoweredByRuby.png" />
         </a>
       </span>
     </footer>
