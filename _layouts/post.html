@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{% if page.index != true %}
+{% assign lang = page.lang | default: site.default_lang %}
+{% assign date_format = site.t[lang].date_format %}
+<div class="post-inline-date"><i>{{ page.date | date: date_format }}</i></div>
+{% endif %}
+
+{{ content }}

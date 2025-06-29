@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.default_lang }}">
+  <head>
+    {% include seo.md %}
+    {% include css.md %}
+    <link rel="alternate" type="application/rss+xml" title="Blog" href="{{ site.url }}/feed.xml" />
+  </head>
+  <body>
+    <div class="pagecontents">
+        {% include navbar.md %}
+        {% if page.title %}
+            {% if page.permalink != "/pl/" and page.permalink != "/en/" %}
+            <h1 class="page-title">{{ page.title }}</h1>
+            {% endif %}
+        {% endif %}
+        <div class="container">
+            {{ content }}
+        </div>
+        {% include footer.md %}
+    </div>
+  </body>
+</html>

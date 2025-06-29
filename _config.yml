@@ -1,0 +1,64 @@
+# Site settings
+title: Piotr Bednarski
+# Site's name
+name: Piotr Bednarski's Blog
+author: Piotr Bednarski
+author_nickname: Piotr Bednarski
+email: kontakt@bednarskiwsieci.pl
+description: "Not only about programming, but also about life, technology, and everything in between."
+baseurl: ""
+url: "https://bednarskiwsieci.pl"
+
+# Multilingual settings
+languages: ["pl", "en"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "assets"]
+parallel_localization: true
+
+# Language-specific settings
+t:
+  pl:
+    title: "Blog Piotra Bednarskiego"
+    description: "Nie tylko o programowaniu, ale także o życiu, technologii i wszystkim pomiędzy."
+    nav:
+      home: "strona główna"
+      blog: "blog"
+      resources: "zasoby"
+      favorites: "ulubione"
+      rss: "rss"
+    blog_title: "Mój blog"
+    read_more: "Czytaj więcej"
+    date_format: "%d %B %Y"
+  en:
+    title: "Piotr Bednarski's Blog"
+    description: "Not only about programming, but also about life, technology, and everything in between."
+    nav:
+      home: "home"
+      blog: "blog"
+      resources: "resources"
+      favorites: "favorites"
+      rss: "rss"
+    blog_title: "My blog"
+    read_more: "Read more"
+    date_format: "%B %-d, %Y"
+exclude: [vendor]
+
+future: false
+
+permalink: '/blog/:slug/'
+post_dirs: false
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM # GitHub Flavored Markdown
+  hard_wrap: false
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - rouge
+
+default_og_image: "/favicon.ico"
