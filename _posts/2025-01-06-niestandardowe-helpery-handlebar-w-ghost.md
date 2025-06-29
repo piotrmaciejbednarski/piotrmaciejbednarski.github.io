@@ -1,5 +1,6 @@
 ---
 title: Niestandardowe helpery Handlebars w Ghost
+description: Jak rozszerzyć możliwości motywów Ghost o niestandardowe helpery Handlebars, zarówno poprzez modyfikację kodu źródłowego, jak i bez niej.
 layout: post
 lang: pl
 date: 2025-01-06

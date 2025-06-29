@@ -1,5 +1,6 @@
 ---
 title: Make Custom Handlebar Helpers in Ghost
+description: How to extend Ghost themes with custom Handlebars helpers, both by modifying the source code and without it.
 layout: post
 lang: en
 date: 2025-01-06
