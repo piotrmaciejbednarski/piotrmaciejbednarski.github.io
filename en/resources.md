@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Resources
+description: A collection of useful tools, websites, and resources for programming and technology.
 lang: en
 permalink: /en/resources/
 ---

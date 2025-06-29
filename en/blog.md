@@ -1,5 +1,6 @@
 ---
 title: My blog
+description: A collection of my thoughts on programming, technology, and the world.
 layout: page
 lang: en
 blog_index: true

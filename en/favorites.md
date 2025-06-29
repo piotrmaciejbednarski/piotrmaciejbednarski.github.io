@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Favorites
+description: My favorite blogs, news, articles, and YouTube channels.
 lang: en
 permalink: /en/favorites/
 ---
