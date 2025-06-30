@@ -4,7 +4,7 @@ description: Jak rozszerzyć możliwości motywów Ghost o niestandardowe helper
 layout: post
 lang: pl
 date: 2025-01-06
-permalink: /pl/blog/niestandardowe-helpery-handlebar-w-ghost
+permalink: /pl/blog/niestandardowe-helpery-handlebar-w-ghost/
 ---
 
 Ten artykuł jest przeznaczony dla wielu programistów i twórców motywów, którzy uważają, że standardowe helpery oferowane przez [Ghost](https://ghost.org/docs/themes/helpers/) są niewystarczające. Całkowicie normalne jest szukanie sposobów na rozszerzenie możliwości naszych motywów korzystających z Handlebars dostarczanych przez Ghost. Przed opublikowaniem tego artykułu i znalezieniem rozwiązania dla mojego motywu przeszukałem cały internet i sam przeanalizowałem kod źródłowy Ghost.
