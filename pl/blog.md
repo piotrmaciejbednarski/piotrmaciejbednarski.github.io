@@ -1,6 +1,7 @@
 ---
 title: Mój blog
 layout: page
+description: Przeczytaj moje wpisy na blogu o AI, uczeniu maszynowym, inżynierii oprogramowania i nie tylko.
 lang: pl
 blog_index: true
 permalink: /pl/blog/
@@ -17,6 +18,14 @@ permalink: /pl/blog/
     {% endunless %}
     {% endfor %}
 </ul>
+
+## Wykorzystuje modele językowe
+
+Wpisy na blogu są oryginalnie pisane najczęściej w języku polskim, później tłumaczone na język angielski (lub odwrotnie). Stosuję modele językowe (Gemini 2.5 Flash) tylko, by przyśpieszyć proces tłumaczenia, ale również by tekst się lepiej czytało (składniowo i gramatycznie).
+
+Ludzie mają skłonność do błędów w pisaniu, a modele językowe mogą pomóc w ich wychwytywaniu i poprawianiu. Dzięki nim teksty są bardziej spójne i zrozumiałe.
+
+Nie ma w tym nic złego, dopóki nie jest to wykorzystywane do pisania całych artykułów! Jeśli chcesz przeczytać wpisy w języku angielskim, przejdź do [mojego bloga w języku angielskim](/en/blog/).
 
 {% if posts.size == 0 %}
 <p>Brak wpisów na blogu w języku polskim.</p>
