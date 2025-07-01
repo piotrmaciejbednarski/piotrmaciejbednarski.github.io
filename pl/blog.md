@@ -4,6 +4,8 @@ layout: page
 description: Przeczytaj moje wpisy na blogu o AI, uczeniu maszynowym, inżynierii oprogramowania i nie tylko.
 lang: pl
 blog_index: true
+sitemap: false
+no_index: true
 permalink: /pl/blog/
 ---
 

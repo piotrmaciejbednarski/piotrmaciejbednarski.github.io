@@ -2,6 +2,7 @@
 layout: page
 lang: pl
 permalink: /pl/
+sitemap: false
 no_index: true
 title: Strona główna
 ---
