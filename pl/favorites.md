@@ -2,6 +2,7 @@
 layout: page
 title: Ulubione
 lang: pl
+sitemap: false
 no_index: true
 permalink: /pl/favorites/
 ---

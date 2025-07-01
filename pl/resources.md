@@ -2,6 +2,7 @@
 layout: page
 title: Zasoby
 lang: pl
+sitemap: false
 no_index: true
 permalink: /pl/resources/
 ---
