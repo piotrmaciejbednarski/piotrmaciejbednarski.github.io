@@ -224,5 +224,5 @@ div.footnotes hr {
   max-height: 100%;
   width: 800px;
   height: 400px;
-  object-fit: cover;
+  object-fit: contain;
 }
