@@ -14,7 +14,7 @@ Ten projekt wzbudził duże zainteresowanie w społecznościach związanych z cy
 
 **Uznanie ekspertów:**
 
-- **Andriy Burkov** (PhD AI, autor książek „The Hundred-Page Language Models Book” oraz „The Hundred-Page Machine Learning Book”)
+- **Andriy Burkov** (PhD AI, autor książek [„The Hundred-Page Language Models Book”](https://www.thelmbook.com/) oraz [„The Hundred-Page Machine Learning Book”](https://www.themlbook.com/))
   - [Artykuł na LinkedIn](https://www.linkedin.com/pulse/artificial-intelligence-282-andriy-burkov-idoxe/) – Wyróżniony w przeglądzie dot. AI
   - [Newsletter Substack](https://aiweekly.substack.com/p/true-positive-weekly-117) – Uwzględniony w cotygodniowym podsumowaniu dot. AI
 

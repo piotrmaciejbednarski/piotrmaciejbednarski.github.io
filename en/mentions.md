@@ -14,7 +14,7 @@ This project has received significant attention in the cybersecurity and AI comm
 
 **Expert Recognition:**
 
-- **Andriy Burkov** (PhD in AI, author of "The Hundred-Page Language Models Book" and "The Hundred-Page Machine Learning Book")
+- **Andriy Burkov** (PhD in AI, author of ["The Hundred-Page Language Models Book"](https://www.thelmbook.com/) and ["The Hundred-Page Machine Learning Book"](https://www.themlbook.com/))
   - [LinkedIn article](https://www.linkedin.com/pulse/artificial-intelligence-282-andriy-burkov-idoxe/) - Featured in AI insights
   - [Substack newsletter](https://aiweekly.substack.com/p/true-positive-weekly-117) - Included in weekly AI roundup
 
