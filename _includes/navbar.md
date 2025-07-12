@@ -6,6 +6,7 @@
   <a href="/{{ lang }}/blog/">{{ t.nav.blog }}</a>
   <a href="/{{ lang }}/resources/">{{ t.nav.resources }}</a>
   <a href="/{{ lang }}/favorites/">{{ t.nav.favorites }}</a>
+  <a href="/{{ lang }}/mentions/">{{ t.nav.mentions }}</a>
   <a href="/feed.xml">{{ t.nav.rss }}</a>
   
   <!-- Language switcher -->
