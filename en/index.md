@@ -3,6 +3,7 @@ layout: page
 lang: en
 permalink: /en/
 title: Home
+description: I started my blog to share knowledge, experience, and reflections. I write about what fascinates me, what irritates me, and what I consider important in today's world. I won’t hide that the idea to create such a place came to me after looking through the blog of Sam Altman from OpenAI, which he has been running continuously since 2013. I thought it was worth being inspired by it—to create something similar, but in my own style.
 ---
 
 # Hello, I'm Piotr Bednarski.

@@ -5,6 +5,7 @@ permalink: /pl/
 sitemap: false
 no_index: true
 title: Strona główna
+description: Uruchomiłem swój blog, by dzielić się wiedzą, doświadczeniem i refleksjami. Piszę o tym, co mnie fascynuje, co budzi irytację, a także o tym, co uważam za ważne w dzisiejszym świecie. Nie ukrywam, że pomysł stworzenia takiego miejsca pojawił się w mojej głowie po przejrzeniu bloga Sam Altmana z OpenAI, który nieprzerwanie prowadzi go od 2013 roku. Pomyślałem, że warto się tym zainspirować — stworzyć coś podobnego, ale w moim własnym stylu.
 ---
 
 # Cześć, jestem Piotr Bednarski!
