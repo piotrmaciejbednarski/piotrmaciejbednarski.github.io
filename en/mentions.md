@@ -23,6 +23,10 @@ This project has received significant attention in the cybersecurity and AI comm
 - **Gwern.net** - [Academic index](https://gwern.net/doc/ai/nn/rnn/index) cataloging the work in their comprehensive AI/neural network documentation
 - **ML Times** - [News index](https://news.lambda.ai/news/2025-06-30) featuring the project in their machine learning news compilation
 
+**Youtube & Video Content:**
+
+- **Construyendo a Chispas** - [How to hide malware in neural networks?](https://www.youtube.com/watch?v=U-ACTyUEe2w) - A Spanish-language YouTube video which uses the project as an example of how to hide malware in neural networks
+
 **Polish Media:**
 
 - **Zaufana Trzecia Strona** - Anna Wasilewska-Śpioch featured the project in her [weekend reading roundup](https://zaufanatrzeciastrona.pl/post/weekendowa-lektura-odcinek-631-2025-07-06-bierzcie-i-czytajcie/) under "More technical articles" section

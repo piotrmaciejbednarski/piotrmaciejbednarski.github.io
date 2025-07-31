@@ -23,6 +23,10 @@ Ten projekt wzbudził duże zainteresowanie w społecznościach związanych z cy
 - **Gwern.net** – [Indeks akademicki](https://gwern.net/doc/ai/nn/rnn/index) katalogujący projekt w obszernej dokumentacji dot. AI/sieci neuronowych
 - **ML Times** – [Indeks wiadomości](https://news.lambda.ai/news/2025-06-30) prezentujący projekt w kompilacji newsów o uczeniu maszynowym
 
+**Filmy YouTube:**
+
+- **Construyendo a Chispas** - [How to hide malware in neural networks?](https://www.youtube.com/watch?v=U-ACTyUEe2w) - Hiszpańskojęzyczny film na YouTube, który wykorzystuje mój projekt jako przykład ukrywania malware w sieciach neuronowych
+
 **Polskie media:**
 
 - **Zaufana Trzecia Strona** – Anna Wasilewska-Śpioch wspomniała projekt w swoim [weekendowym przeglądzie lektur](https://zaufanatrzeciastrona.pl/post/weekendowa-lektura-odcinek-631-2025-07-06-bierzcie-i-czytajcie/) w sekcji „Część bardziej techniczna”
