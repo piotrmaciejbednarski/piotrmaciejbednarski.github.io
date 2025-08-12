@@ -94,4 +94,4 @@ Additionally I implement timestamp shifting, which serves to avoid subtitles sta
 
 ## Links
 
-If you want to test my project, check out the repository on GitHub: https://github.com/piotrmaciejbednarski/cctv-xinwen-lianbo-en
+If you want to test my project, check out the repository on GitHub: [cctv-xinwen-lianbo-en](https://github.com/piotrmaciejbednarski/cctv-xinwen-lianbo-en).

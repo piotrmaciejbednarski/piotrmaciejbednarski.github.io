@@ -94,4 +94,4 @@ Dodatkowo implementuję timestamp shifting, który służy do uniknięcia zbyt w
 
 ## Linki
 
-Jeśli chcesz wytestować mój projekt, sprawdź repozytorium na GitHubie: https://github.com/piotrmaciejbednarski/cctv-xinwen-lianbo-en
+Jeśli chcesz wytestować mój projekt, sprawdź repozytorium na GitHubie: [cctv-xinwen-lianbo-en](https://github.com/piotrmaciejbednarski/cctv-xinwen-lianbo-en).
