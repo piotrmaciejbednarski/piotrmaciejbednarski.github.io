@@ -1,0 +1,206 @@
+/* === Retro 2000s Syntax Highlighting === */
+/* Inspired by early 2000s IDEs and terminals */
+
+.highlight {
+  background-color: #000000;
+  color: #00ff00;
+  border: 3px solid #333333;
+  border-radius: 0;
+  margin: 15px 0;
+  padding: 0;
+}
+
+.highlight pre {
+  background-color: #000000;
+  color: #00ff00;
+  margin: 0;
+  padding: 15px;
+  border: none;
+}
+
+.highlight table td { 
+  padding: 5px; 
+  background: #000000;
+}
+
+.highlight table pre { 
+  margin: 0; 
+}
+
+/* Line numbers */
+.highlight .lineno {
+  color: #666666;
+  background: #1a1a1a;
+  padding-right: 10px;
+  border-right: 2px solid #333333;
+  user-select: none;
+}
+
+/* Comments - gray/cyan */
+.highlight .c, 
+.highlight .ch, 
+.highlight .cd, 
+.highlight .cm, 
+.highlight .cpf, 
+.highlight .c1, 
+.highlight .cs {
+  color: #00aaaa;
+  font-style: italic;
+}
+
+/* Keywords - bright yellow */
+.highlight .k, 
+.highlight .kn, 
+.highlight .kp, 
+.highlight .kr, 
+.highlight .kv,
+.highlight .kc,
+.highlight .kd {
+  color: #ffff00;
+  font-weight: bold;
+}
+
+/* Types - light blue */
+.highlight .kt,
+.highlight .nc,
+.highlight .nn {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* Strings - bright green */
+.highlight .s, 
+.highlight .sb, 
+.highlight .sc, 
+.highlight .dl, 
+.highlight .sd, 
+.highlight .s2, 
+.highlight .sh, 
+.highlight .sx, 
+.highlight .s1,
+.highlight .si,
+.highlight .sr {
+  color: #00ff00;
+}
+
+/* Numbers - magenta/pink */
+.highlight .m, 
+.highlight .mb, 
+.highlight .mf, 
+.highlight .mh, 
+.highlight .mi, 
+.highlight .il, 
+.highlight .mo, 
+.highlight .mx {
+  color: #ff00ff;
+  font-weight: bold;
+}
+
+/* Functions - cyan */
+.highlight .nf,
+.highlight .fm {
+  color: #00ffff;
+}
+
+/* Variables - white */
+.highlight .n,
+.highlight .nv,
+.highlight .vi,
+.highlight .vg {
+  color: #ffffff;
+}
+
+/* Operators - yellow */
+.highlight .o, 
+.highlight .ow {
+  color: #ffff00;
+}
+
+/* Punctuation - light gray */
+.highlight .p, 
+.highlight .pi {
+  color: #aaaaaa;
+}
+
+/* HTML/XML tags - orange */
+.highlight .nt {
+  color: #ff9900;
+  font-weight: bold;
+}
+
+/* Attributes - light green */
+.highlight .na {
+  color: #99ff99;
+}
+
+/* Built-ins - bright cyan */
+.highlight .nb,
+.highlight .bp {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* Constants - magenta */
+.highlight .no {
+  color: #ff66ff;
+  font-weight: bold;
+}
+
+/* Decorators - orange */
+.highlight .nd {
+  color: #ff9900;
+}
+
+/* Symbols - pink */
+.highlight .ss {
+  color: #ff99ff;
+}
+
+/* Errors - red background */
+.highlight .err {
+  color: #ffffff;
+  background-color: #ff0000;
+  font-weight: bold;
+}
+
+/* Diff additions - green */
+.highlight .gi {
+  color: #00ff00;
+  background-color: #003300;
+}
+
+/* Diff deletions - red */
+.highlight .gd {
+  color: #ff0000;
+  background-color: #330000;
+}
+
+/* Diff headers - cyan */
+.highlight .gh {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+/* Generic prompts - yellow */
+.highlight .gp {
+  color: #ffff00;
+  font-weight: bold;
+}
+
+/* Special - orange */
+.highlight .se,
+.highlight .sa {
+  color: #ff9900;
+  font-weight: bold;
+}
+
+/* Preprocessor - light blue */
+.highlight .cp {
+  color: #66ccff;
+}
+
+/* Whitespace */
+.highlight .w {
+  color: #00ff00;
+  background-color: #000000;
+}

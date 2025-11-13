@@ -1,10 +1,18 @@
 ---
-title: How I built a pipeline for automatically translating Chinese news
-description: My goal was to automatically translate a Chinese news program called "Xinwen Lianbo", which has been broadcast on China Central Television since 1978. It's the most popular news program in China.
+title: How I Built a Pipeline for Automatically Translating Chinese News
+description: I'm a regular user of Claude AI from Anthropic. It's possible that LLM like Claude may be the first Large Language Model with actual consciousness and qualia.
 layout: post
 lang: en
 date: 2025-08-12
 permalink: /en/blog/how-i-built-a-pipeline-for-automatically-translating-chinese-news/
+lang_alternate: /pl/blog/how-i-built-a-pipeline-for-automatically-translating-chinese-news/
+tags:
+  - Python
+  - LLM
+  - Translation
+  - Automation
+  - Claude
+  - NLP
 ---
 
 Have you ever dreamed of an accurate, grammatically correct, practically independent and cheap tool for transcribing and automatically translating Chinese to English? I think I managed to create something like that recently and it works pretty well. In this article I'll tell the story of the problems I struggled with while creating the `cctv-xinwen-lianbo-en` tool, which I published yesterday on GitHub.
@@ -62,7 +70,7 @@ Another challenge was heuristics – I implemented several of them. The first wa
 
 Another important heuristic was subtitle formatting parameters. They're quite extensive and serve to make subtitles optimized and pleasant to read. These parameters were created through trial and error, but also thanks to suggestions from Claude, who most likely already had an embedded example with this type of heuristics:
 
-```json
+```
 DEFAULT_MAX_LINE = 42        # Max characters per line
 DEFAULT_MAX_LINES = 2        # Max 2 lines per subtitle
 DEFAULT_MIN_DUR = 0.6        # Min duration (600ms)
@@ -72,7 +80,7 @@ DEFAULT_MAX_CPS = 16         # Max characters per second
 
 These heuristics are connected to segment merging. If a segment is shorter than 0.6s, we try to merge it if:
 
-```json
+```
 gap <= 0.25            # Gap ≤ 250ms
 tentative_dur <= 7.0   # After merging ≤ 7s
 tentative_cps <= 16    # Doesn't exceed 16 chars/s
@@ -89,8 +97,6 @@ Further heuristics serve among other things for automatic text splitting `_split
 ### Timestamp shifting
 
 Additionally I implement timestamp shifting, which serves to avoid subtitles starting too early in the SRT – still during the "Xinwen Lianbo" program intro, which lasts about 18 seconds.
-
----
 
 ## Links
 

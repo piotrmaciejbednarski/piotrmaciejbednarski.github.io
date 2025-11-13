@@ -4,9 +4,11 @@ source 'https://rubygems.org'
 gem "github-pages", "~> 232", group: :jekyll_plugins
 gem 'liquid-c'
 
+ruby '>= 3.1.0'
+
 group :jekyll_plugins do
-  gem 'kramdown'
-  gem 'rouge'
+  gem 'kramdown', '2.4.0'
+  gem 'rouge', '3.30.0'
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'

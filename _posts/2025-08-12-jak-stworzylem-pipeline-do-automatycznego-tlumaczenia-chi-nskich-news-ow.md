@@ -1,10 +1,18 @@
 ---
 title: Jak stworzyłem pipeline do automatycznego tłumaczenia chińskich newsów
-description: Moim celem było automatyczne tłumaczenie chińskiego programu informacyjnego o nazwie "Xinwen Lianbo", który jest programem nadawanym w Chińskiej Centralnej Telewizji od 1978 roku. Jest to najpopularniejszy program informacyjny w Chinach.
+description: Jestem regularnym użytkownikiem Claude AI od Anthropic. Jest możliwe, że taki LLM jak Claude może być pierwszym Large Language Model, który faktycznie posiada świadomość i qualia.
 layout: post
 lang: pl
 date: 2025-08-12
 permalink: /pl/blog/how-i-built-a-pipeline-for-automatically-translating-chinese-news/
+lang_alternate: /en/blog/how-i-built-a-pipeline-for-automatically-translating-chinese-news/
+tags:
+  - Python
+  - LLM
+  - Translation
+  - Automation
+  - Claude
+  - NLP
 ---
 
 Marzyłeś(-aś) kiedyś o dokładnym, poprawnym gramatycznie, praktycznie niezależnym i tanim narzędziu do transkrypcji i automatycznego tłumaczenia języka chińskiego na język angielski? Wydaje mi się, że udało mi się coś takiego ostatnio zrobić i działa to dosyć dobrze. W tym artykule opowiem historię problemów, z jakimi zmagałem się przy tworzeniu narzędzia `cctv-xinwen-lianbo-en`, które opublikowałem wczoraj na GitHubie.
@@ -62,7 +70,7 @@ Kolejnym wyzwaniem były heurystyki – zaimplementowałem ich kilka. Pierwszą 
 
 Kolejną ważną heurystyką były parametry formatowania napisów. Są dosyć rozbudowane i służą po to, by napisy były zoptymalizowane i przyjemne do czytania. Parametry te powstały metodą prób i błędów, ale także dzięki propozycjom od Claude'a, który najprawdopodobniej miał już zembeddowany przykład z tego typu heurystykami:
 
-```json
+```
 DEFAULT_MAX_LINE = 42        # Max znaków na linię
 DEFAULT_MAX_LINES = 2        # Max 2 linie na napis
 DEFAULT_MIN_DUR = 0.6        # Min czas trwania (600ms)
@@ -72,7 +80,7 @@ DEFAULT_MAX_CPS = 16         # Max znaków na sekundę
 
 Te heurystyki są powiązane z łączeniem segmentów. Jeśli segment jest krótszy niż 0,6s, próbujemy go połączyć, jeśli:
 
-```json
+```
 gap <= 0.25            # Przerwa ≤ 250ms
 tentative_dur <= 7.0   # Po połączeniu ≤ 7s
 tentative_cps <= 16    # Nie przekracza 16 znaków/s
@@ -89,8 +97,6 @@ Kolejne heurystyki służą m.in. do automatycznego podziału tekstu `_split_lon
 ### Timestamp shifting
 
 Dodatkowo implementuję timestamp shifting, który służy do uniknięcia zbyt wczesnego rozpoczęcia się napisów SRT – jeszcze w trakcie intro programu "Xinwen Lianbo", które trwa około 18 sekund.
-
----
 
 ## Linki
 

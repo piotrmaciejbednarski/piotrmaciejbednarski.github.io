@@ -5,6 +5,13 @@ layout: post
 lang: pl
 date: 2025-01-06
 permalink: /pl/blog/niestandardowe-helpery-handlebar-w-ghost/
+lang_alternate: /en/blog/make-custom-handlebar-helpers-in-ghost/
+tags:
+  - Ghost
+  - Handlebars
+  - Web Development
+  - JavaScript
+  - Theming
 ---
 
 Ten artykuł jest przeznaczony dla wielu programistów i twórców motywów, którzy uważają, że standardowe helpery oferowane przez [Ghost](https://ghost.org/docs/themes/helpers/) są niewystarczające. Całkowicie normalne jest szukanie sposobów na rozszerzenie możliwości naszych motywów korzystających z Handlebars dostarczanych przez Ghost. Przed opublikowaniem tego artykułu i znalezieniem rozwiązania dla mojego motywu przeszukałem cały internet i sam przeanalizowałem kod źródłowy Ghost.

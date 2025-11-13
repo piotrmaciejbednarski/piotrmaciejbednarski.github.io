@@ -1,106 +1,307 @@
+/* === Early 2000s Retro Style === */
 body {
-  font-family: serif;
+  font-family: "Verdana", "Arial", sans-serif;
+  background: #c0c0c0; /* Classic Windows 95/2000 gray */
+  color: #000000;
+  margin: 0;
+  padding: 10px;
+  font-size: 13px;
 }
+
 div.pagecontents {
   counter-reset: figures;
-  margin: 30px auto 0px auto;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 800px;
+  border: 4px solid #D11D1B;
+  border-top: none;
+  background: #ffffff;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.3); /* Retro drop shadow */
 }
+
 div.pagecontents p,
 div.pagecontents li {
-  line-height: 1.2;
+  line-height: 1.4;
 }
+
 div.pagecontents,
 code,
 pre {
-  max-width: 650px;
-}
-div.navbar {
-  display: inline-block;
-  padding: 10px;
-  background-color: #D11D1B;
+  max-width: 800px;
 }
 
-a {
-  color: #D11D1B;
+/* Old-school header bar */
+div.navbar {
+  display: block;
+  padding: 10px 15px;
+  background: #D11D1B;
+  border-bottom: 4px ridge #8B0000;
+  border-top: 4px ridge #ff4444;
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: inset 0 2px 5px rgba(255, 255, 255, 0.3);
 }
 
 div.navbar a {
   color: #ffffff;
+  text-decoration: none;
+  padding: 5px 12px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  border: 3px outset #ff4444;
+  background: linear-gradient(to bottom, #ff4444 0%, #D11D1B 50%, #8B0000 100%);
+  display: inline-block;
+  font-size: 11px;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+div.navbar a:hover {
+  background: linear-gradient(to bottom, #ff6666 0%, #ff4444 50%, #D11D1B 100%);
+  border: 3px outset #ff6666;
+  transform: translateY(-1px);
+}
+
+div.navbar a:active {
+  border: 3px inset #8B0000;
+  background: #8B0000;
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+a {
+  color: #D11D1B;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #8B0000;
+}
+
+a:hover {
+  color: #ff0000;
+  background: #ffff99;
+}
+
+/* === Content Styling === */
+.container {
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Verdana", sans-serif;
+  font-size: 24px;
+  color: #D11D1B;
+  border-bottom: 4px double #D11D1B;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 100%);
+  padding: 10px;
+  border-top: 2px solid #cccccc;
+}
+
+h2 {
+  font-family: "Verdana", sans-serif;
+  font-size: 18px;
+  color: #D11D1B;
+  border-bottom: 3px groove #D11D1B;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  margin-top: 25px;
+  font-weight: bold;
+  background: linear-gradient(to right, #fff5f5 0%, #ffffff 30%);
+  border-left: 5px solid #D11D1B;
+}
+
+h3 {
+  font-family: "Verdana", sans-serif;
+  font-size: 15px;
+  color: #D11D1B;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-left: 15px;
+  border-left: 3px solid #ff4444;
 }
 
 li.post-item {
   display: table;
-  width: 100%;
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 5px 10px 5px 0;
+  border: 2px groove #cccccc;
+  background: linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
 }
+
+li.post-item:hover {
+  background: linear-gradient(to bottom, #ffffcc 0%, #ffffe0 100%);
+  border-color: #D11D1B;
+}
+
 a.post-title span {
   float: left;
+  font-weight: bold;
 }
+
 div.post-date i {
   float: right;
+  color: #666666;
+  font-size: 11px;
+  font-weight: normal;
 }
-h1,
-h2,
-h2 {
-  line-height: 1.2;
-}
+
 aside {
-  /* margin-top: -20px;
-    margin-bottom: -10px; */
-  margin-left: 20px;
+  margin: 20px;
+  padding: 15px;
+  background: #ffffcc;
+  border: 4px ridge #D11D1B;
   font-style: italic;
+  font-size: 12px;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
 }
+
+aside:before {
+  content: "NOTE";
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  background: #D11D1B;
+  color: #ffffff;
+  padding: 3px 12px;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-style: normal;
+  border: 2px outset #ff4444;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* Code blocks - early 2000s terminal style */
 pre {
   overflow: auto;
   word-wrap: normal;
   white-space: pre;
   display: block;
   padding: 15px;
+  background: #000000;
+  color: #00ff00;
+  border: 4px inset #333333;
+  border-radius: 0;
+  font-family: "Courier New", "Courier", monospace;
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 15px 0;
+  box-shadow: inset 0 0 10px rgba(0, 255, 0, 0.1), 4px 4px 0px rgba(0, 0, 0, 0.3);
 }
+
+code {
+  font-family: "Courier New", "Courier", monospace;
+  font-size: 12px;
+}
+
 .newlink:after {
   content: "(new!)";
   padding-left: 5px;
-  color: red;
+  color: #ff0000;
   font-style: italic;
   display: inline-block;
   text-decoration: none;
+  font-weight: bold;
+  animation: blink 1s infinite;
 }
+
+@keyframes blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+/* Footer */
+footer {
+  padding: 20px;
+  background: #f0f0f0;
+  border-top: 3px solid #D11D1B;
+  margin-top: 30px;
+  font-size: 11px;
+  text-align: center;
+}
+
 footer hr {
   margin-top: 40px;
+  border: none;
+  border-top: 2px dotted #D11D1B;
 }
+
 /* Inline code */
 code.highlighter-rouge {
-  color: green;
+  background: #ffffcc;
+  color: #000080;
+  padding: 2px 5px;
+  border: 1px solid #D11D1B;
+  font-weight: bold;
 }
+
+li code,
+p code {
+  background: #ffffcc;
+  color: #000080;
+  padding: 2px 5px;
+  border: 1px solid #D11D1B;
+  font-weight: bold;
+}
+
+/* Tables - classic 2000s style */
 table {
   margin: 15px 0;
   padding: 0;
+  border-collapse: collapse;
+  border: 3px solid #D11D1B;
+  width: 100%;
 }
+
 table tr {
-  border-top: 1px solid #cccccc;
-  background-color: white;
+  border-top: 1px solid #999999;
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
 }
+
 table tr:nth-child(2n) {
-  background-color: #f8f8f8;
+  background-color: #eeeeee;
 }
+
 table tr th {
   font-weight: bold;
-  border: 1px solid #cccccc;
+  border: 1px solid #999999;
   text-align: left;
   margin: 0;
-  padding: 6px 13px;
+  padding: 8px 13px;
+  background: #D11D1B;
+  color: #ffffff;
+  font-family: "Verdana", sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
 }
+
 table tr td {
   border: 1px solid #cccccc;
   text-align: left;
   margin: 0;
-  padding: 6px 13px;
+  padding: 8px 13px;
 }
+
 table tr th :first-child,
 table tr td :first-child {
   margin-top: 0;
 }
+
 table tr th :last-child,
 table tr td :last-child {
   margin-bottom: 0;
@@ -119,74 +320,298 @@ sub {
   top: 0.4em;
 }
 
+/* Dark mode - early 2000s dark theme */
 @media (prefers-color-scheme: dark) {
   body {
-    color: #dfdfdf;
-    background: #101010;
+    background: #2a2a2a; /* Darker gray instead of black */
+    color: #e0e0e0;
   }
+  
+  div.pagecontents {
+    background: #0a0a0a;
+    border-color: #D11D1B;
+    box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.8);
+  }
+  
+  .container {
+    background: #0a0a0a;
+    border-color: #333333;
+  }
+  
   div.navbar {
-    background-color: #212121;
+    background: #8B0000;
+    border-bottom-color: #D11D1B;
+    border-top-color: #D11D1B;
+    box-shadow: inset 0 2px 5px rgba(255, 100, 100, 0.2);
   }
-  a[href] {
-    color: #9e9eff;
+  
+  div.navbar a {
+    border-color: #D11D1B;
+    background: linear-gradient(to bottom, #D11D1B 0%, #8B0000 50%, #5a0000 100%);
   }
-  a[href]:visited {
-    color: #bebedf;
+  
+  div.navbar a:hover {
+    background: linear-gradient(to bottom, #ff4444 0%, #D11D1B 50%, #8B0000 100%);
+    border-color: #ff4444;
   }
+  
+  a {
+    color: #ff6666;
+  }
+  
+  a:visited {
+    color: #cc4444;
+  }
+  
+  a:hover {
+    color: #ff9999;
+    background: #333300;
+  }
+  
+  h1 {
+    color: #ff6666;
+    border-bottom-color: #D11D1B;
+    border-top-color: #555555;
+    background: linear-gradient(to bottom, #1a1a1a 0%, #0a0a0a 100%);
+  }
+  
+  h2 {
+    color: #ff6666;
+    border-bottom-color: #555555;
+    border-left-color: #D11D1B;
+    background: linear-gradient(to right, #1a0a0a 0%, #0a0a0a 30%);
+  }
+  
+  h3 {
+    color: #ff6666;
+    border-left-color: #D11D1B;
+  }
+  
+  aside {
+    background: #2a2a00;
+    border-color: #D11D1B;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  aside:before {
+    background: linear-gradient(to bottom, #8B0000 0%, #5a0000 100%);
+    border-color: #D11D1B;
+  }
+  
+  pre {
+    background: #000000;
+    color: #00ff00;
+    border-color: #333333;
+  }
+  
   code.highlighter-rouge {
-    color: #fe8019;
+    background: #2a2a00;
+    color: #ffff00;
+    border-color: #D11D1B;
   }
+  
+  li code,
+  p code {
+    background: #2a2a00;
+    color: #ffff00;
+    border-color: #D11D1B;
+  }
+  
+  footer {
+    background: #1a1a1a;
+    border-top-color: #D11D1B;
+  }
+  
+  table {
+    border-color: #D11D1B;
+  }
+  
+  table tr {
+    border-top-color: #555555;
+    background-color: #0a0a0a;
+  }
+  
+  table tr:nth-child(2n) {
+    background-color: #1a1a1a;
+  }
+  
+  table tr th {
+    background: #8B0000;
+    border-color: #555555;
+  }
+  
+  table tr td {
+    border-color: #444444;
+  }
+  
+  li.post-item {
+    border-bottom-color: #444444;
+  }
+  
   svg,
   object.svg,
   img.svg,
   img[src$=".svg"] {
     filter: invert(100%);
   }
-  table tr {
-    border-top: 1px solid #555;
-    background-color: #121212;
+  
+  blockquote {
+    background: linear-gradient(to bottom, #1a1a1a 0%, #0a0a0a 100%);
+    border-color: #D11D1B;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
   }
-  table tr:nth-child(2n) {
-    background-color: #212121;
+  
+  blockquote:before {
+    background: linear-gradient(to bottom, #D11D1B 0%, #8B0000 50%, #5a0000 100%);
+    border-color: #D11D1B;
   }
-  li code,
-  p code {
-    color: #fe8019;
+  
+  li.post-item {
+    border-color: #555555;
+    background: linear-gradient(to bottom, #1a1a1a 0%, #0a0a0a 100%);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  li.post-item:hover {
+    background: linear-gradient(to bottom, #2a2a00 0%, #1a1a00 100%);
+    border-color: #D11D1B;
+  }
+  
+  .page-title {
+    background: linear-gradient(to bottom, #D11D1B 0%, #8B0000 50%, #5a0000 100%) !important;
+    color: #ffffff !important;
+    border-top-color: #D11D1B;
+    border-bottom-color: #5a0000;
+    box-shadow: inset 0 2px 5px rgba(255, 100, 100, 0.2), 0 4px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .post-inline-date {
+    background: linear-gradient(to right, #2a2a00 0%, #0a0a0a 50%);
+    border-color: #D11D1B;
+    border-left-color: #D11D1B;
+    color: #999999;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  div.footnotes {
+    background: #1a1a1a;
+    border-color: #D11D1B;
+  }
+  
+  div.footnotes:before {
+    background: #8B0000;
+  }
+  
+  a.footnote {
+    background: #2a2a00;
+    border-color: #D11D1B;
+  }
+  
+  figure {
+    background: #1a1a1a;
+    border-color: #D11D1B;
+  }
+  
+  img.post-inline-image,
+  .post-image {
+    background: transparent;
+    border: none;
+  }
+  
+  figure figcaption {
+    background: #2a2a00;
+    border-top-color: #D11D1B;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #2a2a2a;
+    border-color: #555555;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #8B0000;
+    border-color: #D11D1B;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #D11D1B;
+  }
+  
+  ::-webkit-scrollbar-button {
+    background: #333333;
+    border-color: #555555;
   }
 }
 
-/* Stuff for posts */
+/* === Posts and Images === */
 img.post-inline-image {
   display: block;
-  margin: 0 auto;
+  margin: 15px auto;
   max-width: 100%;
   max-height: 100%;
+  height: auto;
 }
+
+.post-image {
+  margin: 15px auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
 div.post-co-authors {
   padding-top: 10px;
+  font-style: italic;
+  color: #666666;
 }
-/* TODO(max): See https://alexwlchan.net/2021/10/console-copying/ to disable
- * prompt selection in console blocks */
 
-/* Begin: display a small horizontal bar before footnote elements if they
- * exist. */
+.post-inline-date {
+  font-size: 11px;
+  color: #666666;
+  margin-bottom: 15px;
+  padding: 8px 15px;
+  background: linear-gradient(to right, #ffffcc 0%, #ffffff 50%);
+  border: 2px groove #D11D1B;
+  border-left: 6px solid #D11D1B;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+/* === Footnotes === */
 div.footnotes {
   position: relative;
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 30px;
+  padding: 15px;
+  background: #f9f9f9;
+  border: 2px solid #D11D1B;
+  font-size: 11px;
 }
 
 div.footnotes:before {
-  /* Element only present when there are footnotes. */
-  content: "";
-  width: 50%;
-  left: 25%;
-  height: 2px;
-  background: #b0b0b0;
+  content: "FOOTNOTES";
   position: absolute;
-  top: -1px;
+  top: -10px;
+  left: 10px;
+  background: #D11D1B;
+  color: #ffffff;
+  padding: 2px 8px;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 1px;
 }
-/* End horizontal bar. */
+
+a.footnote {
+  color: #D11D1B;
+  font-weight: bold;
+  text-decoration: none;
+  background: #ffffcc;
+  padding: 1px 3px;
+  border: 1px solid #D11D1B;
+}
 
 a.footnote:before {
   content: "[";
@@ -195,34 +620,189 @@ a.footnote:before {
 a.footnote:after {
   content: "]";
 }
+
+div.footnotes hr {
+  display: none;
+}
+
+/* === Figures === */
+figure {
+  margin: 20px 0;
+  padding: 10px;
+  border: 3px solid #D11D1B;
+  background: #f9f9f9;
+}
+
 figure object,
 figure svg,
 figure img {
   max-width: 100%;
   display: block;
   margin: auto;
+  border: 2px solid #cccccc;
 }
+
 figure figcaption {
   margin-top: 10px;
+  font-size: 11px;
+  text-align: center;
+  font-style: italic;
+  background: #ffffcc;
+  padding: 5px;
+  border-top: 2px solid #D11D1B;
 }
+
 figcaption::before {
   counter-increment: figures;
   content: "Fig. " counter(figures) " - ";
   font-weight: bold;
+  color: #D11D1B;
 }
 
-/* gojekyll includes an <hr> in footnotes that we don't want */
-div.footnotes hr {
-  display: none;
+/* === Additional Early 2000s Elements === */
+
+/* Scrollbar styling for webkit browsers */
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
 }
 
-/* Post image styles */
-.post-image {
-  margin: 0 auto;
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  width: 800px;
-  height: 400px;
-  object-fit: contain;
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+  border: 1px solid #999999;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D11D1B;
+  border: 2px outset #ff4444;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff4444;
+}
+
+::-webkit-scrollbar-button {
+  background: #cccccc;
+  border: 1px outset #999999;
+}
+
+/* Blockquotes - classic forum quote style */
+blockquote {
+  margin: 20px 0;
+  padding: 15px 20px;
+  background: linear-gradient(to bottom, #f8f8f8 0%, #e8e8e8 100%);
+  border: 4px groove #D11D1B;
+  font-style: italic;
+  position: relative;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+blockquote:before {
+  content: "❝ QUOTE ❞";
+  position: absolute;
+  top: -12px;
+  left: 15px;
+  background: linear-gradient(to bottom, #ff4444 0%, #D11D1B 50%, #8B0000 100%);
+  color: #ffffff;
+  padding: 3px 15px;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-style: normal;
+  border: 2px outset #ff4444;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* Horizontal rules - classic 3D effect */
+hr {
+  border: none;
+  height: 2px;
+  background: #999999;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #666666;
+  margin: 20px 0;
+}
+
+/* Lists - old school bullet points */
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  margin: 5px 0;
+  padding-left: 5px;
+}
+
+/* Selection color - classic Windows highlight */
+::selection {
+  background: #000080;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background: #000080;
+  color: #ffffff;
+}
+
+/* Page title styling */
+.page-title {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  background: linear-gradient(to bottom, #ff4444 0%, #D11D1B 50%, #8B0000 100%);
+  border-bottom: 5px ridge #8B0000;
+  border-top: 3px solid #ff6666;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  box-shadow: inset 0 2px 5px rgba(255, 255, 255, 0.3), 0 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 850px) {
+  div.pagecontents {
+    border-left: none;
+    border-right: none;
+    max-width: 100%;
+  }
+  
+  div.navbar {
+    font-size: 11px;
+  }
+  
+  div.navbar a {
+    padding: 3px 8px;
+    margin-right: 3px;
+  }
+  
+  .container {
+    padding: 15px;
+  }
+}
+
+/* Print styles */
+@media print {
+  div.navbar,
+  footer {
+    display: none;
+  }
+  
+  div.pagecontents {
+    border: none;
+  }
+  
+  body {
+    background: white;
+    color: black;
+  }
+  
+  a {
+    text-decoration: underline;
+    color: black;
+  }
 }
