@@ -4,8 +4,7 @@ description: Zauważyłem, że to pole jest bardzo zaniedbane – niektóre bibl
 layout: post
 lang: pl
 date: 2025-07-25
-permalink: /pl/blog/i-have-created-libraries-that-enhance-working-with-text-and-llms/
-lang_alternate: /en/blog/i-have-created-libraries-that-enhance-working-with-text-and-llms/
+permalink: /pl/blog/stworzylem-biblioteki-ktore-usprawniaja-prace-z-tekstem-i-llm/
 tags:
   - Node.js
   - NLP

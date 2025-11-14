@@ -5,7 +5,6 @@ layout: post
 lang: en
 date: 2025-07-25
 permalink: /en/blog/i-have-created-libraries-that-enhance-working-with-text-and-llms/
-lang_alternate: /pl/blog/i-have-created-libraries-that-enhance-working-with-text-and-llms/
 tags:
   - Node.js
   - NLP

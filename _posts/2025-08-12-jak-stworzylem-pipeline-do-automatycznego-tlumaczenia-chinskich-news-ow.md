@@ -4,8 +4,7 @@ description: Jestem regularnym użytkownikiem Claude AI od Anthropic. Jest możl
 layout: post
 lang: pl
 date: 2025-08-12
-permalink: /pl/blog/how-i-built-a-pipeline-for-automatically-translating-chinese-news/
-lang_alternate: /en/blog/how-i-built-a-pipeline-for-automatically-translating-chinese-news/
+permalink: /pl/blog/jak-stworzylem-pipeline-do-automatycznego-tlumaczenia-chinskich-newsow/
 tags:
   - Python
   - LLM

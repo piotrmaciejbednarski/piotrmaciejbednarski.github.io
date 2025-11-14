@@ -3,7 +3,6 @@ title: Stealing AI models through a public API
 description: How public AI APIs can be exploited to extract valuable models - from Facebook's image descriptions to commercial LLM endpoints. A look at invisible attacks that cost millions.
 layout: post
 lang: en
-lang_alternate: /pl/blog/kradziez-modeli-ai-przez-publiczne-api/
 date: 2025-11-14
 permalink: /en/blog/stealing-ai-models-through-a-public-api/
 tags:
