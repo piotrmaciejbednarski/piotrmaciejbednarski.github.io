@@ -5,6 +5,7 @@ layout: post
 lang: pl
 date: 2025-08-12
 permalink: /pl/blog/jak-stworzylem-pipeline-do-automatycznego-tlumaczenia-chinskich-newsow/
+og_image: /assets/img/embed.png
 tags:
   - Python
   - LLM

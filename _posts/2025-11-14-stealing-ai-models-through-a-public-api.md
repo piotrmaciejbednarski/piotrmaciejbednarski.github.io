@@ -5,6 +5,7 @@ layout: post
 lang: en
 date: 2025-11-14
 permalink: /en/blog/stealing-ai-models-through-a-public-api/
+og_image: /assets/img/embed.png
 tags:
   - AI Security
   - Machine Learning

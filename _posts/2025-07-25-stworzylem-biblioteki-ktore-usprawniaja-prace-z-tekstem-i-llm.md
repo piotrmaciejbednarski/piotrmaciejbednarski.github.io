@@ -5,6 +5,7 @@ layout: post
 lang: pl
 date: 2025-07-25
 permalink: /pl/blog/stworzylem-biblioteki-ktore-usprawniaja-prace-z-tekstem-i-llm/
+og_image: /assets/img/embed.png
 tags:
   - Node.js
   - NLP

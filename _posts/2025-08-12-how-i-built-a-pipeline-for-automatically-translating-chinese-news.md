@@ -5,6 +5,7 @@ layout: post
 lang: en
 date: 2025-08-12
 permalink: /en/blog/how-i-built-a-pipeline-for-automatically-translating-chinese-news/
+og_image: /assets/img/embed.png
 tags:
   - Python
   - LLM

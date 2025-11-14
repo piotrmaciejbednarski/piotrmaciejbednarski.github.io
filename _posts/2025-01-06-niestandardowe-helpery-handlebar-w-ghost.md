@@ -5,6 +5,7 @@ layout: post
 lang: pl
 date: 2025-01-06
 permalink: /pl/blog/niestandardowe-helpery-handlebar-w-ghost/
+og_image: /assets/img/embed.png
 tags:
   - Ghost
   - Handlebars

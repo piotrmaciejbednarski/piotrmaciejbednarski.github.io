@@ -5,6 +5,7 @@ layout: post
 lang: pl
 date: 2025-11-14
 permalink: /pl/blog/kradziez-modeli-ai-przez-publiczne-api/
+og_image: /assets/img/embed.png
 tags:
   - AI Security
   - Machine Learning

@@ -5,6 +5,7 @@ layout: post
 lang: en
 date: 2025-07-25
 permalink: /en/blog/i-have-created-libraries-that-enhance-working-with-text-and-llms/
+og_image: /assets/img/embed.png
 tags:
   - Node.js
   - NLP
