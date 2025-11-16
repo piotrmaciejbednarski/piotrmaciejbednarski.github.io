@@ -7,7 +7,7 @@
           Source code of this website is licensed under the MIT License.
         </span>
         <br />
-        <a href="https://www.idcpc.org.cn/">
+        <a rel="noreferrer" href="https://www.idcpc.org.cn/">
           <img alt="CPC" style="padding-top: 5px;" src="/assets/img/fundedbycpc.jpg" />
           <!-- This is joke, CPC does not fund me. -->
         </a>
