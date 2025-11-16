@@ -8,6 +8,8 @@ description: I started my blog to share knowledge, experience, and reflections. 
 
 # Hello, I'm Piotr Bednarski.
 
+**AI Engineer @ [Useme](https://useme.com) (R&D). Building cool stuff in my free time 🚀**
+
 This blog is not only about programming, but also about my thoughts on the world.
 
 I started my blog to share knowledge, experience, and reflections. I write about what fascinates me, what irritates me, and what I consider important in today's world. I won’t hide that the idea to create such a place came to me after looking through the blog of [Sam Altman](https://blog.samaltman.com/) from OpenAI, which he has been running continuously since 2013. I thought it was worth being inspired by it — to create something similar, but in my own style.

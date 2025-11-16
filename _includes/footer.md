@@ -8,8 +8,8 @@
         </span>
         <br />
         <a rel="noreferrer" href="https://www.idcpc.org.cn/">
-          <img alt="CPC" style="padding-top: 5px;" src="/assets/img/fundedbycpc.jpg" />
           <!-- This is joke, CPC does not fund me. -->
+          <img alt="CPC" title="This is a joke, CPC does not fund me." style="padding-top: 5px;" src="/assets/img/fundedbycpc.jpg" />
         </a>
         <a href="https://developer.apple.com/macos/">
           <img alt="macOS" style="padding-top: 5px;" src="/assets/img/macos.gif" />

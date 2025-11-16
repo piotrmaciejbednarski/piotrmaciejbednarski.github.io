@@ -10,6 +10,8 @@ description: Uruchomiłem swój blog, by dzielić się wiedzą, doświadczeniem 
 
 # Cześć, jestem Piotr Bednarski!
 
+**AI Engineer @ [Useme](https://useme.com) (R&D). Tworzę ciekawe rzeczy w wolnym czasie 🚀**
+
 To blog nie tylko o programowaniu, ale także o moich przemyśleniach dotyczących świata.
 
 Uruchomiłem swój blog, by dzielić się wiedzą, doświadczeniem i refleksjami. Piszę o tym, co mnie fascynuje, co budzi irytację, a także o tym, co uważam za ważne w dzisiejszym świecie. Nie ukrywam, że pomysł stworzenia takiego miejsca pojawił się w mojej głowie po przejrzeniu bloga [Sam Altmana](https://blog.samaltman.com/) z OpenAI, który nieprzerwanie prowadzi go od 2013 roku. Pomyślałem, że warto się tym zainspirować — stworzyć coś podobnego, ale w moim własnym stylu.
