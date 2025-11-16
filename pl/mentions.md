@@ -8,6 +8,12 @@ permalink: /pl/mentions/
 
 Ta strona śledzi wzmianki o mojej pracy, wpisach na blogu i projektach w różnych platformach i publikacjach. Jestem wdzięczny za zainteresowanie i zaangażowanie ze strony społeczności!
 
+## Kradzież modeli AI przez publiczne API
+
+**Polskie media:**
+
+- **Zaufana Trzecia Strona** – Anna Wasilewska-Śpioch wspomniała artykuł w swoim [weekendowym przeglądzie lektur](https://zaufanatrzeciastrona.pl/post/weekendowa-lektura-odcinek-650-2025-11-15-bierzcie-i-czytajcie/) w sekcji „Część bardziej fabularna”
+
 ## LSTM lub Transformer jako „packer malware”
 
 Ten projekt wzbudził duże zainteresowanie w społecznościach związanych z cyberbezpieczeństwem i sztuczną inteligencją:

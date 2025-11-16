@@ -8,6 +8,12 @@ permalink: /en/mentions/
 
 This page tracks mentions of my work, blog posts, and projects across various platforms and publications. I'm grateful for the attention and engagement from the community!
 
+## Stealing AI models through a public API
+
+**Polish Media:**
+
+- **Zaufana Trzecia Strona** – Anna Wasilewska-Śpioch mentioned the article in her [weekend reading roundup](https://zaufanatrzeciastrona.pl/post/weekendowa-lektura-odcinek-650-2025-11-15-bierzcie-i-czytajcie/) under "More fabulous articles" section
+
 ## LSTM or Transformer as "malware packer"
 
 This project has received significant attention in the cybersecurity and AI communities:
