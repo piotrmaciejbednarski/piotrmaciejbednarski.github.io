@@ -9,8 +9,6 @@ permalink: /pl/favorites/
 
 ### Blogi, newsy i artykuły
 
-Jestem redaktorem naczelnym w [Nowe Drogi](https://nowedrogi.org/), gdzie publikujemy artykuły o społeczeństwie, polityce i gospodarce. Zapraszam do zapoznania się z naszymi tekstami, które często dotyczą również technologii i programowania. Aktualnie jesteśmy w trakcie tworzenia nowej wersji strony, która będzie bardziej przyjazna dla użytkowników.
-
 - [The Register](https://www.theregister.com/) – wiadomości o technologii, polityce i gospodarce.
 - [Hacker News](https://news.ycombinator.com/) – społeczność programistów i technologów, moja najbardziej ulubiona strona.
 - [TechCrunch](https://techcrunch.com/) – wiadomości o startupach i nowych technologiach.

@@ -8,8 +8,6 @@ permalink: /en/favorites/
 
 ### Blogs, News, and Articles
 
-I am the chief editor at [Nowe Drogi](https://nowedrogi.org/), where we publish articles on society, politics, and the economy. I invite you to explore our content, which often touches upon technology and programming as well. We are currently developing a new, more user-friendly version of our website.
-
 *   [The Register](https://www.theregister.com/) – News covering technology, politics, and economics.
 *   [Hacker News](https://news.ycombinator.com/) – A community for programmers and tech enthusiasts; it's my most favored website.
 *   [TechCrunch](https://techcrunch.com/) – News focusing on startups and emerging technologies.
