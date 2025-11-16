@@ -1,5 +1,4 @@
     <footer>
-      <hr>
       <span style="text-align: center; display: block;">
         Site by Piotr Bednarski, inspired by
         <a href="https://github.com/tekknolagi/tekknolagi.github.com">Maxwell Bernstein</a> website.
@@ -8,6 +7,10 @@
           Source code of this website is licensed under the MIT License.
         </span>
         <br />
+        <a href="https://www.idcpc.org.cn/">
+          <img alt="CPC" style="padding-top: 5px;" src="/assets/img/fundedbycpc.jpg" />
+          <!-- This is joke, CPC does not fund me. -->
+        </a>
         <a href="https://developer.apple.com/macos/">
           <img alt="macOS" style="padding-top: 5px;" src="/assets/img/macos.gif" />
         </a>
