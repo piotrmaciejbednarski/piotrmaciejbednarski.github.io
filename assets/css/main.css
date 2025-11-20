@@ -320,6 +320,228 @@ sub {
   top: 0.4em;
 }
 
+
+
+/* === Posts and Images === */
+img.post-inline-image {
+  display: block;
+  margin: 15px auto;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+.post-image {
+  margin: 15px auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+div.post-co-authors {
+  padding-top: 10px;
+  font-style: italic;
+  color: #666666;
+}
+
+.post-inline-date {
+  font-size: 11px;
+  color: #666666;
+  margin-bottom: 15px;
+  padding: 8px 15px;
+  background: linear-gradient(to right, #ffffcc 0%, #ffffff 50%);
+  border: 2px groove #D11D1B;
+  border-left: 6px solid #D11D1B;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+/* === Footnotes === */
+div.footnotes {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px;
+  background: #f9f9f9;
+  border: 2px solid #D11D1B;
+  font-size: 11px;
+}
+
+div.footnotes:before {
+  content: "FOOTNOTES";
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background: #D11D1B;
+  color: #ffffff;
+  padding: 2px 8px;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+a.footnote {
+  color: #D11D1B;
+  font-weight: bold;
+  text-decoration: none;
+  background: #ffffcc;
+  padding: 1px 3px;
+  border: 1px solid #D11D1B;
+}
+
+a.footnote:before {
+  content: "[";
+}
+
+a.footnote:after {
+  content: "]";
+}
+
+div.footnotes hr {
+  display: none;
+}
+
+/* === Figures === */
+figure {
+  margin: 20px 0;
+  padding: 10px;
+  border: 3px solid #D11D1B;
+  background: #f9f9f9;
+}
+
+figure object,
+figure svg,
+figure img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  border: 2px solid #cccccc;
+}
+
+figure figcaption {
+  margin-top: 10px;
+  font-size: 11px;
+  text-align: center;
+  font-style: italic;
+  background: #ffffcc;
+  padding: 5px;
+  border-top: 2px solid #D11D1B;
+}
+
+figcaption::before {
+  counter-increment: figures;
+  content: "Fig. " counter(figures) " - ";
+  font-weight: bold;
+  color: #D11D1B;
+}
+
+/* === Additional Early 2000s Elements === */
+
+/* Scrollbar styling for webkit browsers */
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+  border: 1px solid #999999;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D11D1B;
+  border: 2px outset #ff4444;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff4444;
+}
+
+::-webkit-scrollbar-button {
+  background: #cccccc;
+  border: 1px outset #999999;
+}
+
+/* Blockquotes - classic forum quote style */
+blockquote {
+  margin: 20px 0;
+  padding: 15px 20px;
+  background: linear-gradient(to bottom, #f8f8f8 0%, #e8e8e8 100%);
+  border: 4px groove #D11D1B;
+  font-style: italic;
+  position: relative;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+blockquote:before {
+  content: "❝ QUOTE ❞";
+  position: absolute;
+  top: -12px;
+  left: 15px;
+  background: linear-gradient(to bottom, #ff4444 0%, #D11D1B 50%, #8B0000 100%);
+  color: #ffffff;
+  padding: 3px 15px;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-style: normal;
+  border: 2px outset #ff4444;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* Horizontal rules - classic 3D effect */
+hr {
+  border: none;
+  height: 2px;
+  background: #999999;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #666666;
+  margin: 20px 0;
+}
+
+/* Lists - old school bullet points */
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  margin: 5px 0;
+  padding-left: 5px;
+}
+
+/* Selection color - classic Windows highlight */
+::selection {
+  background: #000080;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background: #000080;
+  color: #ffffff;
+}
+
+/* Page title styling */
+.page-title {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  background: linear-gradient(to bottom, #ff4444 0%, #D11D1B 50%, #8B0000 100%);
+  border-bottom: 5px ridge #8B0000;
+  border-top: 3px solid #ff6666;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  box-shadow: inset 0 2px 5px rgba(255, 255, 255, 0.3), 0 4px 0px rgba(0, 0, 0, 0.3);
+}
+
 /* Dark mode - early 2000s dark theme */
 @media (prefers-color-scheme: dark) {
   body {
@@ -541,226 +763,6 @@ sub {
     background: #333333;
     border-color: #555555;
   }
-}
-
-/* === Posts and Images === */
-img.post-inline-image {
-  display: block;
-  margin: 15px auto;
-  max-width: 100%;
-  max-height: 100%;
-  height: auto;
-}
-
-.post-image {
-  margin: 15px auto;
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-}
-
-div.post-co-authors {
-  padding-top: 10px;
-  font-style: italic;
-  color: #666666;
-}
-
-.post-inline-date {
-  font-size: 11px;
-  color: #666666;
-  margin-bottom: 15px;
-  padding: 8px 15px;
-  background: linear-gradient(to right, #ffffcc 0%, #ffffff 50%);
-  border: 2px groove #D11D1B;
-  border-left: 6px solid #D11D1B;
-  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
-  font-weight: bold;
-}
-
-/* === Footnotes === */
-div.footnotes {
-  position: relative;
-  display: inline-block;
-  margin-top: 30px;
-  padding: 15px;
-  background: #f9f9f9;
-  border: 2px solid #D11D1B;
-  font-size: 11px;
-}
-
-div.footnotes:before {
-  content: "FOOTNOTES";
-  position: absolute;
-  top: -10px;
-  left: 10px;
-  background: #D11D1B;
-  color: #ffffff;
-  padding: 2px 8px;
-  font-weight: bold;
-  font-size: 10px;
-  letter-spacing: 1px;
-}
-
-a.footnote {
-  color: #D11D1B;
-  font-weight: bold;
-  text-decoration: none;
-  background: #ffffcc;
-  padding: 1px 3px;
-  border: 1px solid #D11D1B;
-}
-
-a.footnote:before {
-  content: "[";
-}
-
-a.footnote:after {
-  content: "]";
-}
-
-div.footnotes hr {
-  display: none;
-}
-
-/* === Figures === */
-figure {
-  margin: 20px 0;
-  padding: 10px;
-  border: 3px solid #D11D1B;
-  background: #f9f9f9;
-}
-
-figure object,
-figure svg,
-figure img {
-  max-width: 100%;
-  display: block;
-  margin: auto;
-  border: 2px solid #cccccc;
-}
-
-figure figcaption {
-  margin-top: 10px;
-  font-size: 11px;
-  text-align: center;
-  font-style: italic;
-  background: #ffffcc;
-  padding: 5px;
-  border-top: 2px solid #D11D1B;
-}
-
-figcaption::before {
-  counter-increment: figures;
-  content: "Fig. " counter(figures) " - ";
-  font-weight: bold;
-  color: #D11D1B;
-}
-
-/* === Additional Early 2000s Elements === */
-
-/* Scrollbar styling for webkit browsers */
-::-webkit-scrollbar {
-  width: 16px;
-  height: 16px;
-}
-
-::-webkit-scrollbar-track {
-  background: #e0e0e0;
-  border: 1px solid #999999;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #D11D1B;
-  border: 2px outset #ff4444;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #ff4444;
-}
-
-::-webkit-scrollbar-button {
-  background: #cccccc;
-  border: 1px outset #999999;
-}
-
-/* Blockquotes - classic forum quote style */
-blockquote {
-  margin: 20px 0;
-  padding: 15px 20px;
-  background: linear-gradient(to bottom, #f8f8f8 0%, #e8e8e8 100%);
-  border: 4px groove #D11D1B;
-  font-style: italic;
-  position: relative;
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
-}
-
-blockquote:before {
-  content: "❝ QUOTE ❞";
-  position: absolute;
-  top: -12px;
-  left: 15px;
-  background: linear-gradient(to bottom, #ff4444 0%, #D11D1B 50%, #8B0000 100%);
-  color: #ffffff;
-  padding: 3px 15px;
-  font-weight: bold;
-  font-size: 10px;
-  letter-spacing: 2px;
-  font-style: normal;
-  border: 2px outset #ff4444;
-  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
-}
-
-/* Horizontal rules - classic 3D effect */
-hr {
-  border: none;
-  height: 2px;
-  background: #999999;
-  border-top: 1px solid #cccccc;
-  border-bottom: 1px solid #666666;
-  margin: 20px 0;
-}
-
-/* Lists - old school bullet points */
-ul {
-  list-style-type: square;
-}
-
-ol {
-  list-style-type: decimal;
-}
-
-li {
-  margin: 5px 0;
-  padding-left: 5px;
-}
-
-/* Selection color - classic Windows highlight */
-::selection {
-  background: #000080;
-  color: #ffffff;
-}
-
-::-moz-selection {
-  background: #000080;
-  color: #ffffff;
-}
-
-/* Page title styling */
-.page-title {
-  text-align: center;
-  padding: 20px;
-  margin: 0;
-  background: linear-gradient(to bottom, #ff4444 0%, #D11D1B 50%, #8B0000 100%);
-  border-bottom: 5px ridge #8B0000;
-  border-top: 3px solid #ff6666;
-  color: #ffffff !important;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: bold;
-  box-shadow: inset 0 2px 5px rgba(255, 255, 255, 0.3), 0 4px 0px rgba(0, 0, 0, 0.3);
 }
 
 /* Responsive adjustments */
