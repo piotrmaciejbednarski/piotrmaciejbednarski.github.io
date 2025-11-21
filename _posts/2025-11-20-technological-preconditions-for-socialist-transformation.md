@@ -117,11 +117,32 @@ This doctrine is a direct application of historical materialism. The Party recog
 
 In the report titled [„A new journey to build a modern socialist country”](https://en.ndrc.gov.cn/policies/202203/P020220315511411039433.pdf), China explicitly points out that the goal is not just GDP growth, but the "basic achievement of socialist modernization." The plan assumes that by 2035 China will become an innovation leader, and key technologies (AI, quantum computing, biotechnology) will cease to be commodities and become public infrastructure. Unlike the Western model, where AI is enclosed in "black boxes" of private firms (OpenAI, Anthropic, Google), the Chinese strategy envisions building a "National Computing Power Network." The state invests in giant data centers intended to provide computing power (a new factor of production) to the entire economy, much like electricity or public roads are provided today.
 
-A key element of the Chinese strategy, recorded in the decisions of the [3rd Plenum of the 20th Central Committee](https://www.idcpc.gov.cn/english2023/dzwk/zgkx/202407/P020240729410733462936.pdf), is the necessity to "shape a new type of relations of production appropriate to the development of new quality productive forces." This means preparing the legal and economic system for the moment when human labor ceases to be the main source of value. China, through state control over "big data" (treated as a national resource, not a private one) and investments in open AI models (open-source), de facto prevents the emergence of a monopolistic rate of profit typical of Western capitalism.
+A key element of the Chinese strategy, recorded in the decisions of the [3rd Plenary Session of the 20th Central Committee](https://www.idcpc.gov.cn/english2023/dzwk/zgkx/202407/P020240729410733462936.pdf), is the necessity to "shape a new type of relations of production appropriate to the development of new quality productive forces." This means preparing the legal and economic system for the moment when human labor ceases to be the main source of value. China, through state control over "big data" (treated as a national resource, not a private one) and investments in open AI models (open-source), de facto prevents the emergence of a monopolistic rate of profit typical of Western capitalism.
 
 Through state investments in R&D and the promotion of open-source solutions, China may paradoxically accelerate the arrival of the post-capitalist era faster than the market economies of the West. They are acting according to the logic of historical materialism: developing technology to the point where the socialist distribution of goods becomes not so much a political choice, but a historical necessity.
 
 ## Summary
 
 Capitalists, striving to maximize profit through automation and artificial intelligence, are unknowingly sawing off the branch they are sitting on. They are creating tools that make the effective privatization of knowledge impossible and abolish the necessity of wage labor in its current form. If the system based on surplus value ceases to generate this value due to the universal availability of the "General Intellect" (described by Marx), capitalism in the form known to us will cease to exist. The question is not "if" but "when" the bubble bursts and the transition to a new phase of the historical cycle occurs.
+
+## Empirical Verification
+
+- **2025-11-21 23:40**
+  The thesis of declining profitability, posited in this article, required verification against hard data. Therefore, I launched the TSR Monitor project. It is a tool that checks in real-time whether and how quickly the market price bubble is bursting under the pressure of technology.
+
+  The key metric here is the Technological Surplus Ratio (TSR).
+
+  It is not an abstract indicator, but a simple ratio of market price to the real cost of inference:
+
+  `TSR = (P_market / C_physical)`
+
+  This indicator answers the question: "How many times are we overpaying relative to the actual cost of electricity and hardware?".
+  - Numerator: Current market price for 1M tokens in SOTA class models (excluding cheap budget models) fetched from [OpenRouter](https://openrouter.ai/api/v1/models).
+  - Denominator: Physical cost of generating these tokens (based on industrial energy prices in the USA and increasing GPU efficiency - I applied Huang's Law). Energy cost data is updated from the [U.S Energy Information Administration](https://www.eia.gov/).
+
+  Currently, the high level of TSR illustrates the scale of the margin imposed by technological monopolies. The project tracks the erosion of this margin. The moment TSR approaches 1.0, it will signify the equalization of market price with technical cost - and thus the end of the possibility of generating profit from the mere "ownership" of an AI model.
+
+  As of November 21, 2025, the TSR is 13.8 (price of $0.3349 per 1M tokens against a hard cost of $0.0242 per 1M tokens), which means that current prices are nearly 14 times higher than the real cost of the service.
+
+  Full data, source code, and a trend report will be published in the first quarter of 2026.
 

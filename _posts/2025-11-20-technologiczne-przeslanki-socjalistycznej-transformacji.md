@@ -125,3 +125,23 @@ Poprzez państwowe inwestycje w R&D i promowanie rozwiązań open-source, Chiny 
 
 Kapitaliści, dążąc do maksymalizacji zysku poprzez automatyzację i sztuczną inteligencję, nieświadomie podcinają gałąź, na której siedzą. Tworzą narzędzia, które uniemożliwiają skuteczną prywatyzację wiedzy i znoszą konieczność pracy najemnej w jej obecnej formie. Jeśli system oparty na wartości dodatkowej przestanie generować tę wartość z powodu powszechnej dostępności "ogólnego intelektu" (opisanego przez Marksa), kapitalizm w znanej nam formie przestanie istnieć. Pytanie nie brzmi "czy", ale "kiedy" pęknie bańka i nastąpi przejście do nowej fazy cyklu dziejowego.
 
+## Weryfikacja empiryczna
+
+- **2025-11-21 23:40**
+  Teza o spadku rentowności, postawiona w tym artykule, wymagała weryfikacji na twardych danych. Dlatego uruchomiłem projekt TSR Monitor. Jest to narzędzie, które w czasie rzeczywistym sprawdza, czy i jak szybko rynkowa bańka cenowa pęka pod naporem technologii.
+
+  Kluczową metryką jest tu Technological Surplus Ratio (TSR).
+
+  Nie jest to abstrakcyjny wskaźnik, lecz prosty stosunek ceny rynkowej do realnego kosztu inferencji:
+
+  `TSR = (P_rynkowa / C_fizyczny)`
+
+  Wskaźnik ten odpowiada na pytanie: „Ile razy przepłacamy względem faktycznego kosztu prądu i sprzętu?”.
+  - Licznik: Aktualna cena rynkowa za 1M tokenów w modelach klasy SOTA (z wyłączeniem tanich modeli budżetowych) pobierana z [OpenRoutera](https://openrouter.ai/api/v1/models).
+  - Mianownik: Fizyczny koszt wygenerowania tych tokenów (bazujący na cenach energii przemysłowej w USA i rosnącej wydajności układów GPU - zastosowałem prawo Huanga). Dane o kosztach energii aktualizowane są z [U.S Energy Information Administration](https://www.eia.gov/).
+
+  Obecnie wysoki poziom TSR obrazuje skalę marży narzuconej przez technologiczne monopole. Projekt śledzi erozję tej marży. Moment, w którym TSR zbliży się do 1.0, będzie oznaczał zrównanie ceny rynkowej z kosztem technicznym - a tym samym koniec możliwości generowania zysku z samej "własności" modelu AI.
+
+  Na dzień 21 listopada 2025 roku TSR wynosi 13.8 (cena 0.3349 dolarów za 1M tokenów przy koszcie twardym 0.0242 dolarów za 1M tokenów), co oznacza, że obecne ceny są prawie 14 razy wyższe niż realny koszt usługi.
+
+  Pełne dane, kod źródłowy oraz raport z trendów zostaną opublikowane w I kwartale 2026 roku.
