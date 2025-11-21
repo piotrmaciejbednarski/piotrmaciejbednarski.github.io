@@ -7,10 +7,6 @@
           Source code of this website is licensed under the MIT License.
         </span>
         <br />
-        <a rel="noreferrer" href="https://www.idcpc.org.cn/">
-          <!-- This is joke, CPC does not fund me. -->
-          <img alt="CPC" title="This is a joke, CPC does not fund me." style="padding-top: 5px;" src="/assets/img/fundedbycpc.jpg" />
-        </a>
         <a href="https://developer.apple.com/macos/">
           <img alt="macOS" style="padding-top: 5px;" src="/assets/img/macos.gif" />
         </a>
