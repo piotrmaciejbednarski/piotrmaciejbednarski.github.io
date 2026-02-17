@@ -6,6 +6,10 @@ lang: en
 permalink: /en/favorites/
 ---
 
+### Agitka
+
+I am the editor-in-chief of ["Agitka."](https://agitka.app/) It was founded in 2026 as a response to the need for reliable, Marxist analysis of reality. This year has become another moment where the masks of the world hegemon have been torn off — the United States' invasion of Venezuela and the openly declared plans for the annexation of Greenland have shown the real, predatory face of modern imperialism. Added to this is the armed conflict in the Gaza Strip and the fact that the world is recording the highest number of armed conflicts since World War II. Observing these events and the crisis of progressive media, we perceived an ideological void that we want to fill. We are a team of experienced editors joining forces to restore dynamics to critical thinking. We forgo the pose of all-knowing experts in favor of deep specialization — we believe that only reliable knowledge allows for the effective unmasking of the mechanisms of power and capital.
+
 ### Blogs, News, and Articles
 
 *   [The Register](https://www.theregister.com/) – News covering technology, politics, and economics.

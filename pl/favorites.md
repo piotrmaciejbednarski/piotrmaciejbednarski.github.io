@@ -7,6 +7,10 @@ no_index: true
 permalink: /pl/favorites/
 ---
 
+### Agitka
+
+Jestem redaktorem naczelnym [„Agitki”](https://agitka.app/). Redakcja powstała w 2026 roku jako odpowiedź na potrzebę rzetelnej, marksistowskiej analizy rzeczywistości. Rok ten stał się kolejnym momentem zerwania masek światowego hegemona — napaść Stanów Zjednoczonych na Wenezuelę oraz otwarcie deklarowane plany aneksji Grenlandii ukazały realne, drapieżne oblicze współczesnego imperializmu. Do tego dochodzi konflikt zbrojny w Strefie Gazy oraz fakt, że świat notuje najwyższą liczbę konfliktów zbrojnych od II wojny światowej. Obserwując te wydarzenia oraz kryzys mediów progresywnych, dostrzegliśmy ideową pustkę, którą chcemy wypełnić. Tworzymy zespół doświadczonych redaktorów, którzy łączą siły, by przywrócić dynamikę krytycznemu myśleniu. Rezygnujemy z pozy wszechwiedzących ekspertów na rzecz głębokiej specjalizacji — wierzymy, że tylko rzetelna wiedza pozwala skutecznie demaskować mechanizmy władzy i kapitału.
+
 ### Blogi, newsy i artykuły
 
 - [The Register](https://www.theregister.com/) – wiadomości o technologii, polityce i gospodarce.
