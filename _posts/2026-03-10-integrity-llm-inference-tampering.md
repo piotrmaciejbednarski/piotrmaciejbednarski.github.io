@@ -1,5 +1,5 @@
 ---
-title: "Integrity of LLMs During Inference: An Analysis of Runtime Attacks via GGUF Weight Modification in llama.cpp"
+title: LLM Integrity During Inference in llama.cpp
 description: "The core of the attack follows from the default behavior of `llama-server` from the `llama.cpp` project. The server maps the GGUF model file into memory using `mmap`, and the observed behavior matches the path in which the process reads file data through shared page-cache pages managed by the kernel. If a second process writes modified data to the same file, the kernel updates the relevant memory pages associated with that file. As a result, the inference process may see new weight values on subsequent reads even though it never reloaded the model and formally treats it as a read-only resource."
 layout: post
 lang: en

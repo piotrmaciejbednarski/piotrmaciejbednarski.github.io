@@ -1,5 +1,5 @@
 ---
-title: "Integralność modeli LLM podczas inferencji: analiza ataku przez modyfikację wag GGUF w czasie działania llama.cpp"
+title: Integralność LLM podczas inferencji w llama.cpp
 description: "Rdzeń ataku wynika z domyślnego sposobu działania `llama-server` z projektu `llama.cpp`. Serwer mapuje plik modelu GGUF do pamięci za pomocą `mmap`, przy czym obserwowane zachowanie odpowiada ścieżce, w której proces odczytuje dane z pliku poprzez współdzielone strony page cache jądra. Jeżeli drugi proces zapisze zmodyfikowane dane do tego samego pliku, jądro aktualizuje odpowiednie strony pamięci powiązane z plikiem. W rezultacie proces inferencyjny może zobaczyć nowe wartości wag przy kolejnych odczytach, mimo że sam nie wykonywał przeładowania modelu i formalnie traktuje go jako zasób tylko-do-odczytu."
 layout: post
 lang: pl
